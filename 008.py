@@ -1,10 +1,10 @@
 #! /usr/bin/env python
 
-num = 1
+num = 5
 res = 1
 
-while num<6:
+while num>0:
     res *= num
-    num += 1
+    num -= 1
 
 print(res)
