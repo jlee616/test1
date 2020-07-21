@@ -11,3 +11,13 @@ for i in l:
 
 print(f"max: {max_val}")
 print(f"min: {min_val}")
+
+#count using dictionary
+d = {}
+for i in l:
+    if i in d:
+        d[i]+= 1
+    else:
+        d[i] = 1
+
+print(d)
